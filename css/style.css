@@ -32,7 +32,7 @@
  02. Global Css
 ------------------*/
 :root {
-  --main-color: #082032;
+  --main-color: rgb(8, 32, 50);
   --color-1: #e91e63;
   --color-2: #f5ae10;
   --color-3: #09d69c;
@@ -1065,6 +1065,7 @@ transform: scale(0.2);
   box-shadow: var(--shadow-black-300);
   font-size: 16px;
   text-align: center;
+  opacity: 0;
 }
 .toggle-theme i {
   line-height: 40px;

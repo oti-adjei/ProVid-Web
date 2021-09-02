@@ -318,6 +318,12 @@ transform: scale(0.2);
   color: #ffffff;
   margin: 0 0 20px;
 }
+.home-logo {
+  max-width: 260px;
+  width: 60%;
+  height: auto;
+  margin: 0 0 20px;
+}
 .logoContainer{
 	
 	height: 250px;
@@ -860,6 +866,12 @@ transform: scale(0.2);
   padding: 30px;
   border-radius: 10px;
   box-shadow: var(--shadow-black-100);
+}
+.team-item img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  object-position: top center;
 }
 .team-item h3 {
   font-size: 18px;
